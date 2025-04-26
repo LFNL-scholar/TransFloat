@@ -152,7 +152,7 @@ def init_dashscope_api_key():
     if 'DASHSCOPE_API_KEY' in os.environ:
         dashscope.api_key = os.environ['DASHSCOPE_API_KEY']
     else:
-        dashscope.api_key = '<你的API密钥>'
+        dashscope.api_key = '<your api-key>'
 
 def start_translation(window):
     print("开始建立翻译服务连接...")
