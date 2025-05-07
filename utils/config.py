@@ -5,7 +5,7 @@ def init_dashscope_api_key():
     if 'DASHSCOPE_API_KEY' in os.environ:
         dashscope.api_key = os.environ['DASHSCOPE_API_KEY']
     else:
-        dashscope.api_key = 'sk-a8b1fe19c885431c8a3769e18c02541e'
+        dashscope.api_key = '<your api-key>'
 
 # 音频配置
 AUDIO_FORMAT = 'pcm'
