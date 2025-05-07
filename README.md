@@ -22,7 +22,7 @@ TransFloat 是一个基于 PyQt6 和 DashScope API 开发的实时语音翻译�
 
 1. 克隆项目代码：
 ```bash
-git clone https://github.com/LFNL-scholar/TransFloat/
+git clone https://github.com/LFNL-scholar/TransFloat.git
 cd TransFloat
 ```
 
@@ -123,7 +123,7 @@ TransFloat/
 
 ## 许可证
 
-[添加许可证信息]
+[MIT](./LICENSE)
 
 ## 贡献指南
 

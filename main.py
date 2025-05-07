@@ -12,6 +12,7 @@ import dashscope
 import pyaudio
 from dashscope.audio.asr import TranslationRecognizerCallback, TranslationRecognizerRealtime, TranslationResult, TranscriptionResult
 from ui.main_window import TranslatorWindow
+from utils.config import init_dashscope_api_key
 
 class MacButton(QPushButton):
     def __init__(self, color, parent=None):
@@ -147,12 +148,6 @@ class TranslationCallback(TranslationRecognizerCallback):
                     self.window.signal_emitter.text_signal.emit(translation.text)
             except Exception as e:
                 print(f"处理翻译结果时出错: {str(e)}")
-
-def init_dashscope_api_key():
-    if 'DASHSCOPE_API_KEY' in os.environ:
-        dashscope.api_key = os.environ['DASHSCOPE_API_KEY']
-    else:
-        dashscope.api_key = '<your api-key>'
 
 def start_translation(window):
     print("开始建立翻译服务连接...")
