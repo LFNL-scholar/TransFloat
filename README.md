@@ -134,7 +134,7 @@ TransFloat/
 
 ## 联系方式
 
-[添加联系方式]
+[lfnltech@163.com]
 
 ## 更新日志
 
