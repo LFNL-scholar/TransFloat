@@ -1,4 +1,5 @@
 # TransFloat - 实时语音翻译工具
+![TransFloat 界面预览](/img/image.png)
 
 TransFloat 是一个基于 PyQt6 和 DashScope API 开发的实时语音翻译工具，支持中英文双向翻译。它提供了一个简洁美观的用户界面，可以实时捕获音频并进行翻译。
 
